@@ -1,0 +1,49 @@
+Score (Mean ± Std),Activation,Alpha,Hidden Layer Sizes,Learning Rate,Solver
+0.824 ± 0.034,tanh,0.0001,"(50, 50, 50)",constant,sgd
+0.731 ± 0.051,tanh,0.0001,"(50, 50, 50)",constant,adam
+0.891 ± 0.001,tanh,0.0001,"(50, 50, 50)",adaptive,sgd
+0.731 ± 0.051,tanh,0.0001,"(50, 50, 50)",adaptive,adam
+0.825 ± 0.035,tanh,0.0001,"(50, 100, 50)",constant,sgd
+0.759 ± 0.075,tanh,0.0001,"(50, 100, 50)",constant,adam
+0.873 ± 0.016,tanh,0.0001,"(50, 100, 50)",adaptive,sgd
+0.759 ± 0.075,tanh,0.0001,"(50, 100, 50)",adaptive,adam
+0.843 ± 0.031,tanh,0.0001,"(100,)",constant,sgd
+0.807 ± 0.035,tanh,0.0001,"(100,)",constant,adam
+0.908 ± 0.013,tanh,0.0001,"(100,)",adaptive,sgd
+0.807 ± 0.035,tanh,0.0001,"(100,)",adaptive,adam
+0.827 ± 0.030,tanh,0.05,"(50, 50, 50)",constant,sgd
+0.725 ± 0.059,tanh,0.05,"(50, 50, 50)",constant,adam
+0.882 ± 0.025,tanh,0.05,"(50, 50, 50)",adaptive,sgd
+0.725 ± 0.059,tanh,0.05,"(50, 50, 50)",adaptive,adam
+0.817 ± 0.089,tanh,0.05,"(50, 100, 50)",constant,sgd
+0.741 ± 0.074,tanh,0.05,"(50, 100, 50)",constant,adam
+0.886 ± 0.007,tanh,0.05,"(50, 100, 50)",adaptive,sgd
+0.741 ± 0.074,tanh,0.05,"(50, 100, 50)",adaptive,adam
+0.840 ± 0.048,tanh,0.05,"(100,)",constant,sgd
+0.762 ± 0.090,tanh,0.05,"(100,)",constant,adam
+0.918 ± 0.011,tanh,0.05,"(100,)",adaptive,sgd
+0.762 ± 0.090,tanh,0.05,"(100,)",adaptive,adam
+0.112 ± 0.000,relu,0.0001,"(50, 50, 50)",constant,sgd
+0.936 ± 0.004,relu,0.0001,"(50, 50, 50)",constant,adam
+0.112 ± 0.000,relu,0.0001,"(50, 50, 50)",adaptive,sgd
+0.936 ± 0.004,relu,0.0001,"(50, 50, 50)",adaptive,adam
+0.112 ± 0.000,relu,0.0001,"(50, 100, 50)",constant,sgd
+0.834 ± 0.191,relu,0.0001,"(50, 100, 50)",constant,adam
+0.112 ± 0.000,relu,0.0001,"(50, 100, 50)",adaptive,sgd
+0.834 ± 0.191,relu,0.0001,"(50, 100, 50)",adaptive,adam
+0.112 ± 0.000,relu,0.0001,"(100,)",constant,sgd
+0.787 ± 0.018,relu,0.0001,"(100,)",constant,adam
+0.112 ± 0.000,relu,0.0001,"(100,)",adaptive,sgd
+0.787 ± 0.018,relu,0.0001,"(100,)",adaptive,adam
+0.112 ± 0.000,relu,0.05,"(50, 50, 50)",constant,sgd
+0.926 ± 0.022,relu,0.05,"(50, 50, 50)",constant,adam
+0.112 ± 0.000,relu,0.05,"(50, 50, 50)",adaptive,sgd
+0.926 ± 0.022,relu,0.05,"(50, 50, 50)",adaptive,adam
+0.112 ± 0.000,relu,0.05,"(50, 100, 50)",constant,sgd
+0.875 ± 0.052,relu,0.05,"(50, 100, 50)",constant,adam
+0.112 ± 0.000,relu,0.05,"(50, 100, 50)",adaptive,sgd
+0.875 ± 0.052,relu,0.05,"(50, 100, 50)",adaptive,adam
+0.113 ± 0.002,relu,0.05,"(100,)",constant,sgd
+0.778 ± 0.163,relu,0.05,"(100,)",constant,adam
+0.113 ± 0.002,relu,0.05,"(100,)",adaptive,sgd
+0.778 ± 0.163,relu,0.05,"(100,)",adaptive,adam
